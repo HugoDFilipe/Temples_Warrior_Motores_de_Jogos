@@ -155,7 +155,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 850559445}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -241,7 +241,8 @@ MonoBehaviour:
   m_text: Exit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
-  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
+  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -540,7 +541,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 850559445}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -567,10 +568,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Mechanized City
+  m_text: The Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
-  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
+  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -870,7 +872,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -910,11 +912,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 612910105}
+  - {fileID: 1499564417}
+  - {fileID: 630881467}
   - {fileID: 1969076151}
   - {fileID: 1512693732}
   - {fileID: 91679775}
-  - {fileID: 1499564417}
-  - {fileID: 630881467}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1074,7 +1076,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1400178087 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7332311116950369794, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7332311116950369794, guid: bcc5ec730be0521419005c36bf0cc4f1,
+    type: 3}
   m_PrefabInstance: {fileID: 7332311115651380133}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -1114,7 +1117,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 850559445}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1141,10 +1144,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Edwin Dwelling
+  m_text: GAME THE MOVIE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
-  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
+  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1250,7 +1254,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 850559445}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1336,7 +1340,8 @@ MonoBehaviour:
   m_text: Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
-  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
+  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1510,7 +1515,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 850559445}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1540,7 +1545,8 @@ MonoBehaviour:
   m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
-  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f, type: 2}
+  m_sharedMaterial: {fileID: -6042848261992481794, guid: 618c4273ac79b8b4da35f9efd5308c1f,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1737,7 +1743,7 @@ SpriteRenderer:
   m_Size: {x: 22, y: 128}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2087176870
@@ -1775,63 +1781,78 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7332311116326096897, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116326096897, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalScale.x
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116326096897, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116326096897, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369794, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369794, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: musicFade
       value: 
       objectReference: {fileID: 941054907}
-    - target: {fileID: 7332311116950369795, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369795, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_Name
       value: SceneChanger
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 285.17352
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 203.07251
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.45850337
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1, type: 3}
+    - target: {fileID: 7332311116950369805, guid: bcc5ec730be0521419005c36bf0cc4f1,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
