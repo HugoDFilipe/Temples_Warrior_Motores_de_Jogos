@@ -48,9 +48,9 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
     }
 
-    public void BackToMenu()
+    public void UnpauseChangeScene(string sceneName)
     {
         Time.timeScale = 1;
-        _loadNextScene.LoadSceneIndex(0);
+        _loadNextScene.LoadSceneName(sceneName);
     }
 }

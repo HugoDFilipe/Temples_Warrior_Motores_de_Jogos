@@ -23,8 +23,7 @@ public class LoadNextScene : MonoBehaviour
     public void LoadSceneName(string sceneName)
     {
         Debug.Log(sceneName);
-        Debug.Log(SceneManager.GetSceneByName(sceneName).buildIndex);
-        StartCoroutine(FadeToScene(SceneManager.GetSceneByName(sceneName).buildIndex));
+        StartCoroutine(FadeToScene(sceneName));
     }
 
     public void LoadSceneIndex(int sceneIndex)
@@ -47,6 +46,23 @@ public class LoadNextScene : MonoBehaviour
         yield return new WaitForSeconds(fadeHalfDuration);
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneIndex);
+
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+    }
+
+    private IEnumerator FadeToScene(string sceneName)
+    {
+        if (fadeTransition != null)
+            fadeTransition.SetTrigger("Start");
+        if (musicFade != null)
+            musicFade.SetTrigger("StopAudio");
+
+        yield return new WaitForSeconds(fadeHalfDuration);
+
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
 
         while (!asyncLoad.isDone)
         {
