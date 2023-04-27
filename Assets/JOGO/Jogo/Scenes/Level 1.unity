@@ -2566,7 +2566,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!1001 &525459146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10775,6 +10775,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8329610661063238082, guid: d8ad630f198e7f24a8af20baf68d5c8f,
         type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329610661063238082, guid: d8ad630f198e7f24a8af20baf68d5c8f,
+        type: 3}
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
@@ -10787,6 +10792,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: -1869315837
+      objectReference: {fileID: 0}
+    - target: {fileID: 8329610661063238082, guid: d8ad630f198e7f24a8af20baf68d5c8f,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8438162745396271626, guid: d8ad630f198e7f24a8af20baf68d5c8f,
         type: 3}
