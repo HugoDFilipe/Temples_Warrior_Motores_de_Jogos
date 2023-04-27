@@ -417,7 +417,7 @@ TextureImporter:
         x: 160
         y: 448
         width: 32
-        height: 46
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,7 +459,7 @@ TextureImporter:
         x: 163
         y: 387
         width: 26
-        height: 39
+        height: 18
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,9 +628,9 @@ TextureImporter:
         y: 323
         width: 28
         height: 36
-      alignment: 7
+      alignment: 9
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 28}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -756,7 +756,7 @@ TextureImporter:
         height: 32
       alignment: 9
       pivot: {x: 0.44592682, y: -0.0006246567}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 26}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -774,7 +774,7 @@ TextureImporter:
         x: 96
         y: 256
         width: 27
-        height: 32
+        height: 5
       alignment: 9
       pivot: {x: 0.5602985, y: 0.0005931854}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,7 +798,7 @@ TextureImporter:
         height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 25}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -819,7 +819,7 @@ TextureImporter:
         height: 27
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 19}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -840,7 +840,7 @@ TextureImporter:
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 25}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -903,7 +903,7 @@ TextureImporter:
         height: 61
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 11}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1113,7 +1113,7 @@ TextureImporter:
         height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 31}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1155,7 +1155,7 @@ TextureImporter:
         height: 72
       alignment: 7
       pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 4, y: 0, z: 6, w: 5}
       outline: []
       physicsShape: []
       tessellationDetail: 0
