@@ -3089,7 +3089,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11091,10 +11091,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.23742962, y: 16.581892}
-      - {x: -6.2938395, y: 16.596586}
-      - {x: -6.2554383, y: -4.5714726}
-      - {x: -0.31635857, y: -4.599056}
+    - - {x: 4.5669007, y: 21.38622}
+      - {x: -11.231622, y: 21.400915}
+      - {x: -11.259947, y: -9.442528}
+      - {x: 4.6214223, y: -9.269931}
 --- !u!4 &1428305059
 Transform:
   m_ObjectHideFlags: 0
@@ -11150,7 +11150,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1504109082}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 3
+    OrthographicSize: 4
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
