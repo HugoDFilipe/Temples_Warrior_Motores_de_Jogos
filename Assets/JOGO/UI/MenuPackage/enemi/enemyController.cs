@@ -76,7 +76,7 @@ public class enemyController : MonoBehaviour
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        Debug.Log(currentHealth + "/" + maxHealth);
+        
     }
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -85,10 +85,16 @@ public class enemyController : MonoBehaviour
         if (player != null)
         {
             player.ChangeHealth(-1);
+            
         }
-        else
+        if (enemy != null)
         {
             enemy.ChangeHealth(-1);
         }
+        if (currentHealth <= 0) ;
+        {
+            Destroy(gameObject);
+        }
+        Debug.Log(currentHealth + "/" + maxHealth);
     }
 }
