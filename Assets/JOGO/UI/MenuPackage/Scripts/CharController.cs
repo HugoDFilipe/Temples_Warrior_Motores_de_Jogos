@@ -53,6 +53,11 @@ public class CharController : MonoBehaviour
             if (invincibleTimer < 0)
                 isInvincible = false;
         }
+
+       /* if (Input.GetKeyDown(KeyCode.C))
+        {
+            Attack();
+        }*/
     }
 
     void FixedUpdate()
@@ -64,6 +69,10 @@ public class CharController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
+   /*'void Attack()
+    {
+        animator.SetTrigger("Attack");
+    }*/
     public void ChangeHealth(int amount)
     {
         if (amount < 0)
