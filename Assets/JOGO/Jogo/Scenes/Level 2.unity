@@ -2007,6 +2007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450693449}
   - component: {fileID: 450693450}
+  - component: {fileID: 450693451}
   m_Layer: 0
   m_Name: Musica
   m_TagString: Untagged
@@ -2125,6 +2126,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &450693451
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450693448}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ffcde8738cc7bbf48b817915cdad25cc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &474480100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16096,6 +16117,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 5520475067416526975, guid: 0708fb818da07af4db796e9531e791d9,
+        type: 3}
+      propertyPath: musicFade
+      value: 
+      objectReference: {fileID: 450693451}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0708fb818da07af4db796e9531e791d9, type: 3}
 --- !u!114 &1497010311 stripped
