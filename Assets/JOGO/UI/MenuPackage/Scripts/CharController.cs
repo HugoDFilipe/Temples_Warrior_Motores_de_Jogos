@@ -69,6 +69,8 @@ public class CharController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
+
+
    /*'void Attack()
     {
         animator.SetTrigger("Attack");
