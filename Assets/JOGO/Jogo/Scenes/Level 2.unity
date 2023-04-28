@@ -18768,7 +18768,7 @@ PrefabInstance:
     - target: {fileID: 2440844624711060802, guid: c5bdca1933fde624698bb8c6d6daa44b,
         type: 3}
       propertyPath: nextSceneToLoad
-      value: MainMenu
+      value: Credits
       objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750448, guid: c5bdca1933fde624698bb8c6d6daa44b,
         type: 3}
