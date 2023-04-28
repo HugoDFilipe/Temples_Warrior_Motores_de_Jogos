@@ -2797,6 +2797,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2093288442}
     m_Modifications:
+    - target: {fileID: 2577585254963922476, guid: ac719b1d0f58391469cc19fd947ca44c,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: ac719b1d0f58391469cc19fd947ca44c,
         type: 3}
       propertyPath: m_Name
@@ -11465,6 +11470,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: slime-Sheet_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795966699757217157, guid: 9ca886f7470b84383b2b8b59962abd98,
+        type: 3}
+      propertyPath: vertical
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795966699757217157, guid: 9ca886f7470b84383b2b8b59962abd98,
+        type: 3}
+      propertyPath: changeTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8795966699757217157, guid: 9ca886f7470b84383b2b8b59962abd98,
+        type: 3}
+      propertyPath: timeInvincible
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ca886f7470b84383b2b8b59962abd98, type: 3}
