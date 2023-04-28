@@ -10,6 +10,8 @@ namespace Cainos.PixelArtTopDown_Basic
     {
         public List<SpriteRenderer> runes;
         public float lerpSpeed;
+        [SerializeField] private string nextSceneToLoad = "";
+        [SerializeField] LoadNextScene _loadNextScene;
 
         private Color curColor;
         private Color targetColor;
@@ -17,6 +19,11 @@ namespace Cainos.PixelArtTopDown_Basic
         private void OnTriggerEnter2D(Collider2D other)
         {
             targetColor = new Color(1, 1, 1, 1);
+
+            if(nextSceneToLoad != null)
+            {
+                _loadNextScene.LoadSceneName(nextSceneToLoad);
+            }
         }
 
         private void OnTriggerExit2D(Collider2D other)

@@ -4563,6 +4563,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ca886f7470b84383b2b8b59962abd98, type: 3}
+--- !u!114 &942079529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5520475067416526975, guid: 0708fb818da07af4db796e9531e791d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 262901026}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc9983217057f141abfac92eb219ff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1014414016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4570,6 +4582,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2093288442}
     m_Modifications:
+    - target: {fileID: 2440844624711060802, guid: c5bdca1933fde624698bb8c6d6daa44b,
+        type: 3}
+      propertyPath: _loadNextScene
+      value: 
+      objectReference: {fileID: 942079529}
+    - target: {fileID: 2440844624711060802, guid: c5bdca1933fde624698bb8c6d6daa44b,
+        type: 3}
+      propertyPath: nextSceneToLoad
+      value: Level 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750448, guid: c5bdca1933fde624698bb8c6d6daa44b,
         type: 3}
       propertyPath: m_RootOrder

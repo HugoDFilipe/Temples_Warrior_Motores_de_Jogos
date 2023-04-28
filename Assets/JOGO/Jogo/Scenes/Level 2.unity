@@ -15666,6 +15666,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0708fb818da07af4db796e9531e791d9, type: 3}
+--- !u!114 &1497010311 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5520475067416526975, guid: 0708fb818da07af4db796e9531e791d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1497010310}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc9983217057f141abfac92eb219ff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1502048495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18337,6 +18349,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1602168152}
     m_Modifications:
+    - target: {fileID: 2440844624711060802, guid: c5bdca1933fde624698bb8c6d6daa44b,
+        type: 3}
+      propertyPath: _loadNextScene
+      value: 
+      objectReference: {fileID: 1497010311}
+    - target: {fileID: 2440844624711060802, guid: c5bdca1933fde624698bb8c6d6daa44b,
+        type: 3}
+      propertyPath: nextSceneToLoad
+      value: MainMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750448, guid: c5bdca1933fde624698bb8c6d6daa44b,
         type: 3}
       propertyPath: m_RootOrder
