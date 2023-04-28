@@ -87,4 +87,20 @@ public class CharController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
     }
+    public void TakeDamage(int damageAmount)
+    {
+        // Deduct the provided damage amount from the player's current health
+        currentHealth -= damageAmount;
+
+        // If the player has no health left now
+        if (currentHealth <= 0)
+        {
+            // Kill the player
+            Destroy(gameObject);
+
+            // NB: Here, you may want to restart the game
+            // (e.g. by informing your game manager that the player has died,
+            // or by raising an event using your event system)
+        }
+    }
 }
