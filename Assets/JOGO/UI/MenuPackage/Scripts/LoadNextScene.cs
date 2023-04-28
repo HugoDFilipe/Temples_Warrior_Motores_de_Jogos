@@ -10,9 +10,24 @@ public class LoadNextScene : MonoBehaviour
     public Animator fadeTransition, musicFade;
     public float fadeHalfDuration = 1f;
 
+    [Header("Timed Transition")]
+    [SerializeField] private bool isTimedTransition = false;
+    [SerializeField] private float transitionTimer;
+    [SerializeField] private string transitionToScene;
+
     private void Start()
     {
         currentScene = SceneManager.GetActiveScene();
+    }
+    private void Update()
+    {
+        if (isTimedTransition)
+        {
+            if (transitionTimer <= 0)
+                LoadSceneName(transitionToScene);
+
+            transitionTimer -= Time.deltaTime;
+        }
     }
 
     public void LoadNextSceneIndex()
