@@ -22,6 +22,8 @@ public class CharController : MonoBehaviour
     Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
 
+    [SerializeField] Joystick _joystick;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,8 +35,16 @@ public class CharController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        if(_joystick != null)
+        {
+            horizontal = _joystick.Horizontal;
+            vertical = _joystick.Vertical;
+        }
+        else
+        {
+            horizontal = Input.GetAxis("Horizontal");
+            vertical = Input.GetAxis("Vertical");
+        }
 
         Vector2 move = new Vector2(horizontal, vertical);
 

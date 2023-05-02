@@ -33,12 +33,17 @@ public class PauseMenu : MonoBehaviour
             }
             else
             {
-                pauseMenuUI.SetActive(true);
-                Time.timeScale = 0;
-                isPaused = true;
+                Pause();
             }
         }
         //_animator.SetBool("isPaused", isPaused);
+    }
+
+    public void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0;
+        isPaused = true;
     }
 
     public void Continue()
@@ -52,5 +57,13 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1;
         _loadNextScene.LoadSceneName(sceneName);
+    }
+
+    public void PauseButton()
+    {
+        if (isPaused)
+            Continue();
+        else
+            Pause();
     }
 }
